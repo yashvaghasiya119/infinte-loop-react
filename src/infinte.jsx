@@ -7,7 +7,7 @@ let [data,setdata]=useState([])
 let [page,setpage]=useState(1)
 let[hasMore,sethasMore]=useState(true)
     async function getcarddata() {
-      ; // Set loading to true while fetching data
+       // Set loading to true while fetching data
         let da = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=9&_page=${page}`);
         let result = await da.json();
         setdata((prev) => {

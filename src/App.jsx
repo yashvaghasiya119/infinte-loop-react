@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Thapa } from "./thapa";
 import { Infinite } from "./infinte";
+import { Prc } from "./prc";
 
 function App() {
   // let [data, setdata] = useState();
@@ -42,7 +43,9 @@ function App() {
   return (
     <>
  {/* <Thapa/>      */}
- <Infinite/>
+ {/* <Infinite/>  */}
+ <Prc/>
+
     </>
   );
 }

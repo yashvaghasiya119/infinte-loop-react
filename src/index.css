@@ -3,3 +3,23 @@
   height: 50vh;
   overflow-y: scroll;
 }
+
+.gridthree{
+  display: grid;
+  grid-template-columns: auto auto auto ;
+}
+.main{
+  width: 100vw;
+  height: 100vh;
+  color: black  ;
+  background-color: pink;
+  /* overflow: scroll; */
+}
+.children{
+  width: 300px;
+  height: 300px;
+}
+.infinite-scroll-component{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}

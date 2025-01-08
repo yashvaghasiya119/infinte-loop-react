@@ -21,9 +21,16 @@ let[hasMore,sethasMore]=useState(true)
       function moredata(){
         setpage((prev)=>prev + 1    )
       }
-     
+     function gotop(){
+     scrollTo(top,-2000)
+     }
+     function gobottom() {
+      window.scrollTo(0, document.documentElement.scrollHeight);
+  }
+  
     return<>
     <div>
+      <button onClick={gobottom}>Go bottom</button>
         <InfiniteScroll
         dataLength={data.length}
         next={moredata}
@@ -40,6 +47,7 @@ let[hasMore,sethasMore]=useState(true)
           </div>
          })}
         </InfiniteScroll>
+        <button onClick={gotop}>go top</button>
     </div>
     </>
 }

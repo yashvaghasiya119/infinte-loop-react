@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Thapa } from "./thapa";
 import { Infinite } from "./infinte";
 import { Prc } from "./prc";
+import AIGeneratedContent from "./del";
 
 function App() {
   // let [data, setdata] = useState();
@@ -43,8 +44,9 @@ function App() {
   return (
     <>
  {/* <Thapa/>      */}
- {/* <Infinite/>  */}
- <Prc/>
+ <Infinite/> /
+ {/* <Prc/> */}
+ {/* <AIGeneratedContent/> */}
 
     </>
   );

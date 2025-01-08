@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@pollinations/react": "^2.0.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-infinite-scroll-component": "^6.1.0"
